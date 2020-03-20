@@ -24,7 +24,7 @@ class MyCaptcha
         $height = 70;
         $font_dir = __DIR__ . '/fonts/';
         $capthas_dir = __DIR__ . '/captchas/';
-        $colors = [102, 204];
+        $colors = array(102, 204);
         $lines_count = rand(4, 7);
 
         $generated_random = self::generateRandom($charset, $generated_random_length);
