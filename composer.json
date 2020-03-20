@@ -2,7 +2,7 @@
     "name": "srglkh/captchagen",
     "type": "library",
     "require": {
-        "php": ">=5.3.0",
+        "php": ">=7.0.0",
         "ext-gd": "*"
     },
     "authors": [
@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Srglkh\\Captchagen\\": "srglkh/captchagen/"
+            "Srglkh\\Captchagen\\": ""
         }
     }
 }

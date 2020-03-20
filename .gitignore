@@ -1,3 +1,4 @@
 /vendor/
-composer.lock
-srglkh/captchagen/captchas/*
+/composer.lock
+/captchas/*
+!/captchas/.gitkeep
